@@ -15,7 +15,6 @@ function AppRouter() {
         <Route path="/" element={<Layout />}>
           <Route path=":id" element={<Home />} />
           <Route path="signin" element={<SignIn />} />
-          <Route path="signup" element={<Signup />} />
           <Route path="about" element={<About />} />
         </Route>
 
