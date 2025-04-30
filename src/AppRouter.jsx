@@ -5,7 +5,6 @@ import Layout from "./Layout";
 import SignIn from "./pages/SignIn";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
-import Signup from "./pages/signup";
 
 
 function AppRouter() {
