@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-function SignUp() {
+function Signup() {
   return (
     <>
       <div className="max-w-4xl max-sm:max-w-lg mx-auto p-6 mt-6">
@@ -169,4 +169,4 @@ function SignUp() {
   );
 }
 
-export default SignUp
+export default Signup;

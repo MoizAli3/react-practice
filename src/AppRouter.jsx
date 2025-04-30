@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Layout from "./Layout";
 import SignIn from "./pages/SignIn";
-import SignUp from "./pages/signUp";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
+import Signup from "./pages/signup";
 
 
 function AppRouter() {
@@ -15,7 +15,7 @@ function AppRouter() {
         <Route path="/" element={<Layout />}>
           <Route path=":id" element={<Home />} />
           <Route path="signin" element={<SignIn />} />
-          <Route path="signup" element={<SignUp />} />
+          <Route path="signup" element={<Signup />} />
           <Route path="about" element={<About />} />
         </Route>
 
